@@ -5,7 +5,6 @@ const DEFAULT_SCREENSHOT: PictureProps = {
   src: '/images/screenshot.png',
   width: 338,
   height: 380,
-  alt: `Screenshot of the ${APP_NAME} app`,
 };
 
 export const SCREENSHOTS = {
