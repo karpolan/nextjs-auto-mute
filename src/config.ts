@@ -7,5 +7,7 @@ export const IS_PRODUCTION = getCurrentEnvironment() === 'production'; // Enable
 
 export const PUBLIC_URL = envRequired(process.env.NEXT_PUBLIC_PUBLIC_URL);
 
-export const APP_NAME = 'TODO: Add Name';
-export const APP_SHORT_NAME = 'TODO: Add Short Name';
+export const APP_NAME = 'Auto Mute';
+export const APP_SHORT_NAME = 'AutoMute';
+export const APP_VERSION = '4.5.0.71';
+export const APP_VER = '4.5';

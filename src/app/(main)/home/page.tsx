@@ -1,9 +1,7 @@
 import { APP_NAME, PUBLIC_URL } from '@/config';
 import { Button, Icon, SocialMedia, Stack, Typo, Wrapper } from '@/components';
 import DownloadButton from '@/components/DownloadButton';
-import Video from '@/components/Video';
-import Picture from '@/components/Picture';
-import { ICONS } from '../../../components/Icon/icons';
+import { ICONS } from '@/components/Icon/icons';
 
 /**
  * Home page content
@@ -52,17 +50,7 @@ const HomePage = () => {
         ))}
       </Stack>
 
-      <Typo variant="header2">Picture</Typo>
-      <Stack alignItems="center" padding="1rem 0">
-        <Picture src="/img/favicon/256x256.png" width={256} height={256} />
-      </Stack>
-
       <Typo variant="paragraph">{'Another paragraph of text'.repeat(10)}</Typo>
-
-      <Typo variant="header1">Video</Typo>
-      <Stack alignItems="center" padding="1rem 0">
-        <Video video="demo" />
-      </Stack>
 
       <Typo variant="header1">Social Media</Typo>
       <SocialMedia variant="full" />

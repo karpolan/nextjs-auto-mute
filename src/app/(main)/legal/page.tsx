@@ -14,6 +14,9 @@ const LegalPage = () => {
           <Link href="/legal/privacy-policy">Privacy Policy</Link>
         </li>
         <li>
+          <Link href="/legal/software-license">Software License</Link>
+        </li>
+        <li>
           <Link href="/legal/terms-conditions">Terms and Conditions</Link>
         </li>
       </Typo>

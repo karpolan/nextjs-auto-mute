@@ -1,7 +1,7 @@
 import { APP_NAME, PUBLIC_URL } from '@/config';
 import { Link, Typo, Wrapper } from '@/components';
 
-const PRIVACY_POLICY_DATE = '2024-01-05'; // TODO: put your date here or use today's date
+const PRIVACY_POLICY_DATE = '2024-02-05';
 
 /**
  * Content of "Privacy Policy" page
@@ -155,8 +155,8 @@ const PrivacyPolicyPage = () => {
         <li>
           Using online <Link href="/contact/">contact form</Link>
         </li>
-        <li>Via email support(at)domain-name[dot]com</li>
-        <li>Post mail to 1428 Elm Street, Springwood, Ohio, USA </li>
+        <li>Via email support(at)auto-mute.com</li>
+        <li>Mail to Ozerna 28, 81, Kyiv 04209, UKRAINE</li>
       </Typo>
     </Wrapper>
   );

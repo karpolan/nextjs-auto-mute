@@ -10,7 +10,6 @@ type TypoVariant = 'text' | 'paragraph' | 'header1' | 'header2' | 'header3' | 'l
 type TypoAlign = 'center' | 'left' | 'right' | 'justify';
 
 function getTagByVariant(variant: TypoVariant): keyof JSX.IntrinsicElements {
-  // TODO: Synch with Figma
   switch (variant) {
     case 'header1':
       return 'h1';
@@ -28,7 +27,6 @@ function getTagByVariant(variant: TypoVariant): keyof JSX.IntrinsicElements {
 }
 
 function getFontByVariant(variant: TypoVariant): string {
-  // TODO: If we will use single font, we can remove this function
   switch (variant) {
     case 'header1':
     case 'header2':

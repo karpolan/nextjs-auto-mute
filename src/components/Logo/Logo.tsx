@@ -7,9 +7,9 @@ type LogoSize = 'small' | 'medium' | 'large';
 type LogoVariant = 'default' | 'light' | 'dark';
 
 const VARIANT_TO_SRC: Record<LogoVariant, string> = {
-  default: '/img/logo/logo-256.png',
-  light: '/img/logo/logo-256.png',
-  dark: '/img/logo/logo-256.png',
+  default: '/img/logo/logo-128.png',
+  light: '/img/logo/logo-128.png',
+  dark: '/img/logo/logo-128.png',
 };
 
 const SIZE_TO_PROPS: Record<LogoSize, object> = {
@@ -51,11 +51,9 @@ const Logo: FunctionComponent<Props> = ({ href, noText, size = 'medium', variant
 
   const textToRender = useMemo(
     () =>
-      // TODO: Add real text here
       noText ? null : (
         <div className={`${styles.text} ${styles[size]}`}>
-          <span className={styles.primary}>Logo</span>
-          Type
+          <span className={styles.primary}>Auto</span> Mute
         </div>
       ),
     [noText, size]
