@@ -1,7 +1,7 @@
 'use client';
 import { useLayoutEffect } from 'react';
 import { usePathname, useSearchParams } from 'next/navigation';
-import { amplitudeEvent } from '@/lib/amplitude';
+import { amplitudeEvent, isAmplitudeInitialized } from '@/lib/amplitude';
 
 /**
  * Adds supporting scripts for Amplitude, also tracks each page view.
@@ -13,6 +13,10 @@ const AmplitudeAnalytics = () => {
 
   // Track each page view with Amplitude
   useLayoutEffect(() => {
+    if (!isAmplitudeInitialized()) {
+      return; // Do nothing if Amplitude was not initialized
+    }
+
     const eventProperties = {
       location: window.location.href,
       pathname,
