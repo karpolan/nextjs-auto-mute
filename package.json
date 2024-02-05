@@ -1,7 +1,7 @@
 {
   "name": "nextjs-auto-mute",
   "version": "0.1.2",
-  "description": "Some public website using NextJS",
+  "description": "Website for Auto Mute software using NextJS",
   "private": true,
   "author": {
     "name": "Anton Karpenko",
