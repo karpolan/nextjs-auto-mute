@@ -1,7 +1,7 @@
 {
-  "name": "TODO: Add name of website",
-  "short_name": "TODO: Add short name of website or product",
-  "description": "TODO: Add description of website",
+  "name": "Auto Mute Software",
+  "short_name": "Auto Mute",
+  "description": "Auto Mute is free software for PC and Mac",
   "icons": [
     {
       "src": "/favicon.ico?v=1",

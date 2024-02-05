@@ -26,7 +26,6 @@ describe('<Icon/> component', () => {
     render(<ComponentToTest data-testid={testId} color={color} />);
     const svg = screen.getByTestId(testId);
     expect(svg).toHaveAttribute('data-icon', 'default');
-    // expect(svg).toHaveAttribute('color', color); // TODO: Looks like MUI Icons exclude .color property from <svg> rendering
     expect(svg).toHaveStyle(`color: ${color}`);
     expect(svg).toHaveAttribute('fill', 'currentColor'); // .fill must be 'currentColor' when .color property is set
   });

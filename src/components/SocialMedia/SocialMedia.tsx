@@ -4,32 +4,31 @@ import { ObjectPropByName } from '@/utils';
 import { Button } from '@/components';
 import Stack, { StackProps } from '../Stack/Stack';
 
-// TODO: put all known social media links here
 export const SOCIAL_MEDIA: ObjectPropByName = {
   facebook: {
-    href: 'https://www.facebook.com/xxx',
+    href: 'https://www.facebook.com/automute/',
     title: `Follow ${APP_NAME} on Facebook`,
   },
   twitter: {
-    href: 'https://twitter.com/xxx',
+    href: 'https://twitter.com/AutoMute/',
     title: `Follow ${APP_NAME} on Twitter`,
   },
   linkedin: {
-    href: 'https://www.linkedin.com/in/xxx/',
-    title: `Follow ${APP_NAME} on LinkedIn`,
+    href: 'https://www.linkedin.com/in/karpolan/',
+    title: `Follow Author of ${APP_NAME} on LinkedIn`,
   },
   instagram: {
-    href: 'https://www.instagram.com/xxx/',
-    title: `Follow ${APP_NAME} on Instagram`,
+    href: 'https://www.instagram.com/karpolan/',
+    title: `Follow Author of ${APP_NAME} on Instagram`,
   },
   youtube: {
-    href: 'https://www.youtube.com/user/xxx',
-    title: `Follow ${APP_NAME} on YouTube`,
+    href: 'https://www.youtube.com/user/karpolan',
+    title: `Follow Author of ${APP_NAME} on YouTube`,
   },
 };
 
 interface Props extends StackProps {
-  variant?: 'full' | 'footer'; // TODO: add more variants if needed
+  variant?: 'full' | 'footer';
 }
 
 /**

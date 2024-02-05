@@ -164,24 +164,6 @@ describe('<Link/> component', () => {
     link = screen.getByText(text1);
     expect(link).toBeDefined();
     expect(link).toHaveClass(activeClassName);
-
-    // TODO:  mockRouter.asPath always returns url without trailing slash :( We need to test this case somehow
-    // act(() => {
-    //   mockRouter.push(url + '/'); // With trailing slash
-    // });
-
-    // console.log('mockRouter.asPath', mockRouter.asPath);
-    // render(
-    //   <ComponentToTest
-    //     href={url} // Without trailing slash
-    //     activeClassName={activeClassName}
-    //   >
-    //     {text2}
-    //   </ComponentToTest>
-    // );
-    // link = screen.getByText(text2);
-    // expect(link).toBeDefined();
-    // expect(link).toHaveClass(activeClassName);
   });
 
   test('renders custom .className and .activeClassName', () => {

@@ -11,13 +11,12 @@ export const metadata: Metadata = {
   manifest: '/site.webmanifest',
   openGraph: OPEN_GRAPH_DEFAULT,
 
-  // TODO: put your texts here
-  title: APP_NAME, // 'Some Public Website',
-  description: 'Cool description for the website, this is used for SEO, so make it good!',
+  title: APP_NAME,
+  description: 'Free software that makes computer silent by default',
 };
 
 export const viewport: Viewport = {
-  themeColor: '#FFFFFF', // TODO: put your theme color here
+  themeColor: '#FFFFFF',
 };
 
 /**

@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XML_DIZ_INFO>
+  <MASTER_PAD_VERSION_INFO>
+    <MASTER_PAD_VERSION>3.11</MASTER_PAD_VERSION>
+    <MASTER_PAD_EDITOR>RoboSoft 4.0.756</MASTER_PAD_EDITOR>
+    <MASTER_PAD_EDITOR_URL>https://robosoft.rudenko.com</MASTER_PAD_EDITOR_URL>
+    <MASTER_PAD_INFO>Portable Application Description, or PAD for short, is a data set that is used
+      by shareware authors to disseminate information to anyone interested in their software
+      products. To find out more go to https://www.asp-shareware.org/pad</MASTER_PAD_INFO>
+  </MASTER_PAD_VERSION_INFO>
+  <RoboSoft>
+    <Company_UIN>CMP-00551AFE9C7</Company_UIN>
+    <Company_Description>KARPOLAN is a nickname of Anton Karpenko</Company_Description>
+    <Product_UIN>APP-009B0227604</Product_UIN>
+    <Search_String>Auto Mute</Search_String>
+    <Press_Release_Search_String>Auto Mute</Press_Release_Search_String>
+    <NewsFeed_Search_String>Auto Mute</NewsFeed_Search_String>
+    <Search_Engine_Search_String>Auto Mute</Search_Engine_Search_String>
+    <Web_Directories_Search_String>Auto Mute</Web_Directories_Search_String>
+    <Search_String_Unique>KARPOLAN</Search_String_Unique>
+    <Comments_For_Reviewer>Thank you for your interest. Hope this program helps you too :)</Comments_For_Reviewer>
+    <Publish_on_CD>TRUE</Publish_on_CD>
+    <Backlink>https://auto-mute.com/submit.html</Backlink>
+    <RSProductType></RSProductType>
+  </RoboSoft>
+  <Company_Info>
+    <Company_Name>KARPOLAN</Company_Name>
+    <Address_1>#101 - 1001 W. Broadway, 381</Address_1>
+    <Address_2></Address_2>
+    <City_Town>Vancouver</City_Town>
+    <State_Province>BC</State_Province>
+    <Zip_Postal_Code>V6H 4E4</Zip_Postal_Code>
+    <Country>Canada</Country>
+    <Company_WebSite_URL>https://karpolan.com</Company_WebSite_URL>
+    <Contact_Info>
+      <Contact_First_Name>Anton</Contact_First_Name>
+      <Contact_Last_Name>Karpenko</Contact_Last_Name>
+      <Contact_Email>pad@karpolan.com</Contact_Email>
+      <Author_First_Name>Anton</Author_First_Name>
+      <Author_Last_Name>Karpenko</Author_Last_Name>
+      <Author_Email>pad@karpolan.com</Author_Email>
+    </Contact_Info>
+    <Support_Info>
+      <Sales_Email>pad@karpolan.com</Sales_Email>
+      <Support_Email>pad@karpolan.com</Support_Email>
+      <General_Email>pad@karpolan.com</General_Email>
+      <Sales_Phone>38 093 3944815</Sales_Phone>
+      <Support_Phone>38 093 3944815</Support_Phone>
+      <General_Phone>38 093 3944815</General_Phone>
+      <Fax_Phone>38 093 3944815</Fax_Phone>
+    </Support_Info>
+  </Company_Info>
+  <ASP>
+    <ASP_FORM>Y</ASP_FORM>
+    <ASP_Member>Y</ASP_Member>
+    <ASP_Member_Number>04242</ASP_Member_Number>
+  </ASP>
+  <NewsFeed>
+    <NewsFeed_FORM>Y</NewsFeed_FORM>
+    <NewsFeed_VERSION>1.0</NewsFeed_VERSION>
+    <NewsFeed_URL>https://Submit-Everywhere.com/extensions/NewsFeed.htm</NewsFeed_URL>
+    <NewsFeed_Type>Atom 1.0</NewsFeed_Type>
+    <NewsFeed_Language>English</NewsFeed_Language>
+    <NewsFeed_Purpose>News</NewsFeed_Purpose>
+    <NewsFeed_Author_Email>pad@karpolan.com</NewsFeed_Author_Email>
+    <NewsFeed_Author_First_Name>Anton</NewsFeed_Author_First_Name>
+    <NewsFeed_Author_Last_Name>Karpenko</NewsFeed_Author_Last_Name>
+    <NewsFeed_Feed_URL>https://auto-mute.com/feed/</NewsFeed_Feed_URL>
+    <NewsFeed_Site_Name>Auto Mute - sound control software</NewsFeed_Site_Name>
+    <NewsFeed_Site_URL>https://auto-mute.com</NewsFeed_Site_URL>
+    <NewsFeed_Title>Auto Mute - software to make computer silent</NewsFeed_Title>
+    <NewsFeed_Description_250>Small software utility to make PC silent when it's turning on or is
+      waking up. The sound is automatically muted when the computer is turning off or is going to
+      suspend mode. The next system start generates no sound even if you forgot to turn it off.</NewsFeed_Description_250>
+    <NewsFeed_Description_70>Small software utility to make PC silent when it is turning on</NewsFeed_Description_70>
+    <NewsFeed_DESCRIPTION>This PAD extension allows you to add your RSS and Atom news feeds info
+      into your PAD file. This info can be used by RSS feed submission software or by feed
+      directories themselves.</NewsFeed_DESCRIPTION>
+  </NewsFeed>
+  <Site>
+    <Site_FORM>Y</Site_FORM>
+    <Site_VERSION>1.0</Site_VERSION>
+    <Site_URL>https://Submit-Everywhere.com/extensions/Site.htm</Site_URL>
+    <Site_DESCRIPTION>This PAD extension allows you to add your site info into your PAD file. This
+      info can be used by site submission software or by web directories themselves.</Site_DESCRIPTION>
+    <Site_Contact_Email>pad@karpolan.com</Site_Contact_Email>
+    <Site_Contact_First_Name>Anton</Site_Contact_First_Name>
+    <Site_Site_Title>Auto Mute - software to make computer silent by default</Site_Site_Title>
+    <Site_Site_URL>https://auto-mute.com</Site_Site_URL>
+    <Site_Description_100>Small software utility to make PC silent when it is turning on or is
+      waking up.</Site_Description_100>
+    <Site_Description_250>Small software utility to make PC silent when it's turning on or is waking
+      up. The sound is automatically muted when the computer is turning off or is going to suspend
+      mode. The next system start generates no sound even if you forgot to turn it off.</Site_Description_250>
+    <Site_Description_450>Small software utility to make PC silent when it's turning on or is waking
+      up. The sound is automatically muted when the computer is turning off or is going to suspend
+      mode. The next system start is absolutely silent even if you forgot to turn the sound off in
+      previous session. After that you can enable sound effects manually, using a shortcut
+      combination. Moreover, you may use this keyboard shortcut to quickly switch the sound on and
+      off.</Site_Description_450>
+    <Site_Keywords>mute sound, turn off sound, quiet logon, quiet logoff, quiet computer, quiet
+      start, silent computer, silent logon, silent start</Site_Keywords>
+    <Site_Contact_Last_Name>Karpenko</Site_Contact_Last_Name>
+  </Site>
+  <Program_Info>
+    <Program_Name>Auto Mute</Program_Name>
+    <Program_Version>4.5</Program_Version>
+    <Program_Release_Month>08</Program_Release_Month>
+    <Program_Release_Day>22</Program_Release_Day>
+    <Program_Release_Year>2012</Program_Release_Year>
+    <Program_Cost_Dollars>0.00</Program_Cost_Dollars>
+    <Program_Type>Freeware</Program_Type>
+    <Program_Release_Status>Major Update</Program_Release_Status>
+    <Program_Install_Support>Install and Uninstall</Program_Install_Support>
+    <Program_OS_Support>WinXP,WinVista,WinVista x64,Win7 x32,Win7
+      x64,Win2000,WinServer,Win98,WinME,WinNT 4.x</Program_OS_Support>
+    <Program_Language>English</Program_Language>
+    <Program_Change_Info>Added option to disable Internet features (updates, PingNotify statistics,
+      etc.) Memory consumption improved.</Program_Change_Info>
+    <Program_System_Requirements>none</Program_System_Requirements>
+    <Program_Category_Class>System Utilities::Automation Tools</Program_Category_Class>
+    <File_Info>
+      <File_Size_Bytes>565715</File_Size_Bytes>
+      <File_Size_K>552</File_Size_K>
+      <File_Size_MB>0.54</File_Size_MB>
+      <Filename_Versioned></Filename_Versioned>
+      <Filename_Previous></Filename_Previous>
+      <Filename_Generic></Filename_Generic>
+      <Filename_Long></Filename_Long>
+    </File_Info>
+    <Expire_Info>
+      <Has_Expire_Info>N</Has_Expire_Info>
+      <Expire_Based_On>Days</Expire_Based_On>
+      <Expire_Count></Expire_Count>
+      <Expire_Other_Info></Expire_Other_Info>
+      <Expire_Month></Expire_Month>
+      <Expire_Day></Expire_Day>
+      <Expire_Year></Expire_Year>
+    </Expire_Info>
+    <Program_Categories>Automation,Audio,Sound,Tools,System,Utilities,Software,Notebook,Computer</Program_Categories>
+    <Limitations>none</Limitations>
+    <Awards>Many awards from different download archives and review sites</Awards>
+    <Program_Cost_Other_Code></Program_Cost_Other_Code>
+    <Program_Cost_Other></Program_Cost_Other>
+    <Program_Specific_Category></Program_Specific_Category>
+    <Includes_JAVA_VM></Includes_JAVA_VM>
+    <Includes_VB_Runtime></Includes_VB_Runtime>
+    <Includes_DirectX></Includes_DirectX>
+  </Program_Info>
+  <Web_Info>
+    <Application_URLs>
+      <Application_Info_URL>https://auto-mute.com</Application_Info_URL>
+      <Application_Order_URL>https://auto-mute.com/download/</Application_Order_URL>
+      <Application_Screenshot_URL>https://auto-mute.com/images/screenshot.png</Application_Screenshot_URL>
+      <Application_Icon_URL>https://auto-mute.com/images/icon-32x32.gif</Application_Icon_URL>
+      <Application_XML_File_URL>https://auto-mute.com/pad.xml</Application_XML_File_URL>
+    </Application_URLs>
+    <Download_URLs>
+      <Primary_Download_URL>https://auto-mute.com/files/auto-mute.exe</Primary_Download_URL>
+      <Secondary_Download_URL>https://auto-mute.com/files/auto-mute.zip</Secondary_Download_URL>
+      <Additional_Download_URL_1></Additional_Download_URL_1>
+      <Additional_Download_URL_2></Additional_Download_URL_2>
+    </Download_URLs>
+  </Web_Info>
+  <Permissions>
+    <Distribution_Permissions>This Software may be distributed freely through on-line services,
+      bulletin boards, or other forms of electronic media, as long as the files are distributed in
+      their entirety. Computer Magazines/Archives are authorized to distribute Software on any Cover
+      Disk or CD-ROM without an individual permission.</Distribution_Permissions>
+    <EULA>This is the End User License Agreement (the "Agreement") is a legal agreement between you,
+      the end-user ("Licensee"), and KARPOLAN, the manufacturer and the copyright owner ("Owner"),
+      for the use of the "Auto Mute" aka "AutoMute" software product ("Software").
+
+      By using this Software or storing this program on a computer drive (or other media), you are
+      agreeing to be bound by the terms of this Agreement. If you do not agree with the terms of
+      this Agreement, please remove this Software from your system.
+
+
+      Rights
+      ======
+
+      The Software is protected by copyright laws and international copyright treaties, as well as
+      other intellectual property laws and treaties. Software is licensed, not sold. Software is
+      free to use and includes no technical support. The origin of this Software must not be
+      misrepresented.
+
+
+      Copyright
+      =========
+
+      All title, including but not limited to copyrights, in and to the Software and any copies
+      thereof are owned by Owner or its suppliers. All title and intellectual property rights in and
+      to the content which may be accessed through use of the Software is the property of the
+      respective content owner and may be protected by applicable copyright or other intellectual
+      property laws and treaties. This Agreement grants you no rights to use such content. All
+      rights not expressly granted are reserved by Owner.
+
+
+      Distribution
+      ============
+
+      This Software may be distributed freely through on-line services, bulletin boards, or other
+      forms of electronic media, as long as the files are distributed in their entirety. Computer
+      Magazines/Archives are authorized to distribute Software on any Cover Disk or CD-ROM without
+      an individual permission.
+
+
+      Restrictions
+      ============
+
+      You may not alter this Software in any way, including changing or removing any messages or
+      windows. You may not decompile, reverse engineer, disassemble or otherwise reduce this
+      Software to a human perceivable form. You may not modify, rent or resell this Software for
+      profit, or create any derivative works, based upon this Software.
+
+
+      Disclaimer
+      ==========
+
+      This Software is provided on an "as is" basis without warranty of any kind, expressed or
+      implied, including but not limited to the implied warranties of merchantability and
+      suitability for a particular purpose. The person using the Software bears all risk as to the
+      quality and performance of the Software. Owner will not be liable for any special, incidental,
+      consequential, indirect or similar damages due to loss of data or any other reason, even if
+      Owner or an agent of Owner has been advised of the possibility of such damages. In no event
+      will Owner be liable for costs of any damages. You acknowledge that you have read this
+      license, understood it, and agreed to be bound by its terms.</EULA>
+  </Permissions>
+  <Program_Descriptions>
+    <English>
+      <Keywords>mute sound, turn off sound, quiet logon, quiet logoff, quiet computer, quiet start,
+        silent computer, silent logon, silent start</Keywords>
+      <Char_Desc_45>Makes computer silent when it's turning on</Char_Desc_45>
+      <Char_Desc_80>Small software utility to make PC silent when it is turning on or is waking up.</Char_Desc_80>
+      <Char_Desc_250>Small software utility to make PC silent when it's turning on or is waking up.
+        The sound is automatically muted when the computer is turning off or is going to suspend
+        mode. The next system start generates no sound even if you forgot to turn it off.</Char_Desc_250>
+      <Char_Desc_450>Small software utility to make PC silent when it's turning on or is waking up.
+        The sound is automatically muted when the computer is turning off or is going to suspend
+        mode. The next system start is absolutely silent even if you forgot to turn the sound off in
+        previous session. After that you can enable sound effects manually, using a shortcut
+        combination. Moreover, you may use this keyboard shortcut to quickly switch the sound on and
+        off.</Char_Desc_450>
+      <Char_Desc_2000>Has your child ever been awakened with the loud "Ta-Dam!" sound your laptop
+        played when you opened it at late evening? Did you ever open notebook on conference and the
+        computer loudly notifies you about new messages or something? I bet, you wanted to smash the
+        computer into smithereens then. Each time this happens to me, I promise myself to disable
+        the sound before logging off, but I always forget about this in few minutes.
+
+        So I've created small software utility to make PC silent when it's turning on or is waking
+        up. Solution is very easy! The sound is automatically muted when the computer is turning off
+        or is going to suspend mode. The next system start is absolutely silent even if you forgot
+        to turn the sound off in previous session. After that you can enable sound effects manually,
+        using a shortcut combination. Moreover, you may use this keyboard shortcut to quickly switch
+        the sound on and off.</Char_Desc_2000>
+    </English>
+    <Russian>
+      <Char_Desc_2000>Ваш ребенок никогда не просыпался от громкого звука "Та-дам!", который выдавал
+        ваш ноутбук, когда вы открывали его поздним вечером? А было такое что на конференциях или
+        других публичных местах, компьютер громко уведомляет всех присутствующих о новых сообщениях
+        или издавал другие громкие звуки? Бьюсь об заклад, что в такие моменты вы были готовы
+        разбить компьютер вдребезги и пополам. Каждый раз, когда такое происходило со мной, я
+        клятвенно обещал себе, что обязательно отключу звук до выхода из системы, но я всякий раз
+        забывал об этом буквально за несколько минут.
+
+        Я долго мучился, но потом решил создать небольшую программку, которая автоматически
+        заглушает звук при выключении компьютера или перехода ноутбука в спящий режим. Таким
+        образом, последующее включение компьютера, пробуждение или вход пользователя в систему
+        становится абсолютно беззвучным! Позже, есть возможность включить звуковые эффекты вручную,
+        используя определенную комбинацию клавиш. Так же это сочетание клавиш можно использовать для
+        быстрого включении и выключения звука во время работы.</Char_Desc_2000>
+      <Char_Desc_450>Ваш ребенок никогда не просыпался от громкого звука "Та-дам!", который выдавал
+        ваш ноутбук, когда вы открывали его поздним вечером? А было такое что на конференциях или
+        других публичных местах, компьютер громко уведомляет всех присутствующих о новых сообщениях
+        или издавал другие громкие звуки? Бьюсь об заклад, что в такие моменты вы были готовы
+        разбить компьютер вдребезги и пополам. Программа Auto Mute - отличное решение это проблемы.</Char_Desc_450>
+      <Char_Desc_250>Ваш ребенок никогда не просыпался от громкого звука "Та-дам!", который выдавал
+        ваш ноутбук, когда вы открывали его поздним вечером? А было такое что на конференциях или
+        других публичных местах, компьютер громко выдает звуковое сообщение?</Char_Desc_250>
+      <Char_Desc_80>Решение проблемы громкого поведения компьютера в тихих местах</Char_Desc_80>
+      <Char_Desc_45>Компьютер больше не издает громких звуков</Char_Desc_45>
+      <Keywords>звук, музыка, громко, тихо, отключить звук, приглушить звук, беззвучный</Keywords>
+    </Russian>
+    <German>
+      <Char_Desc_2000>Hat Ihr Kind jemals mit dem lauten "Ta-Dam geweckt!" Sound Ihren Laptop
+        gespielt, wenn Sie sie geöffnet am späten Abend? Haben Sie schon einmal geöffnet Notebook
+        auf die Konferenz und der Computer meldet laut, Sie über neue Nachrichten oder was? Ich
+        wette, Sie wollten den Computer in Scherben dann zu zerschlagen. Jedes Mal, wenn mir das
+        passiert, das verspreche ich mir den Klang vor der Abmeldung zu deaktivieren, aber ich habe
+        immer über diese vergessen in wenigen Minuten.
+
+        Deshalb habe ich kleines Software-Programm geschaffen, um PC schweigen, wenn es auf Drehen
+        oder Aufwachen. Lösung ist ganz einfach! Der Ton wird automatisch stumm geschaltet, wenn der
+        Computer ausgeschaltet ist oder sich drehen wird, um Modus anzuhalten. Die nächsten
+        System-Start ist ganz still, auch wenn Sie vergessen haben, den Ton ausschalten in den
+        vorangegangenen Sitzung. Danach können Sie manuell aktivieren Soundeffekte, über eine
+        Verknüpfung Kombination. Darüber hinaus können Sie diese Tastenkombination verwenden, um
+        schnell den Ton ein-und ausschalten.</Char_Desc_2000>
+      <Char_Desc_450>Kleine Software-Dienstprogramm, um PC schweigen, wenn es auf Drehen oder
+        Aufwachen. Der Ton wird automatisch stumm geschaltet, wenn der Computer ausgeschaltet ist
+        oder sich drehen wird, um Modus anzuhalten. Die nächsten System-Start ist ganz still, auch
+        wenn Sie vergessen haben, den Ton ausschalten in den vorangegangenen Sitzung. Danach können
+        Sie manuell aktivieren Soundeffekte, über eine Verknüpfung Kombination.</Char_Desc_450>
+      <Char_Desc_250>Kleine Software-Dienstprogramm, um PC schweigen, wenn es auf Drehen oder
+        Aufwachen. Der Ton wird automatisch stumm geschaltet, wenn der Computer ausgeschaltet ist
+        oder sich drehen wird, um Modus anzuhalten.</Char_Desc_250>
+      <Char_Desc_80>Kleine Software, um PC schweigen, wenn es auf Drehen oder Aufwachen</Char_Desc_80>
+      <Char_Desc_45>Macht PC schweigen, wenn es drehen auf</Char_Desc_45>
+      <Keywords>schweigen, sound, stumm geschaltet</Keywords>
+    </German>
+    <French>
+      <Keywords>silencieux, sonores</Keywords>
+      <Char_Desc_45>Donne PC silencieux quand il tourne sur</Char_Desc_45>
+      <Char_Desc_80>Petit utilitaire pour faire le PC silencieux quand il tourne sur ou se réveille.</Char_Desc_80>
+      <Char_Desc_250>Votre enfant a déjà été réveillée par le haut "Ta-Dam! son de votre ordinateur
+        portable joué quand vous l'avez ouvert le soir tard? Saviez-vous portable toujours ouvert
+        sur la conférence et l'ordinateur signale fort qu'on sujet de nouveaux messages?</Char_Desc_250>
+      <Char_Desc_450>Votre enfant a déjà été réveillée par le haut "Ta-Dam! son de votre ordinateur
+        portable joué quand vous l'avez ouvert le soir tard? Saviez-vous portable toujours ouvert
+        sur la conférence et l'ordinateur signale fort qu'on sujet de nouveaux messages ou quoi? Je
+        parie que vous avez voulu briser l'ordinateur en éclats alors.</Char_Desc_450>
+      <Char_Desc_2000>Votre enfant a déjà été réveillée par le haut "Ta-Dam! son de votre ordinateur
+        portable joué quand vous l'avez ouvert le soir tard? Saviez-vous portable toujours ouvert
+        sur la conférence et l'ordinateur signale fort qu'on sujet de nouveaux messages ou quoi? Je
+        parie que vous avez voulu briser l'ordinateur en éclats alors. Chaque fois que cela
+        m'arrive, je me promets de désactiver le son avant de vous déconnecter, mais je l'oublie
+        toujours à ce sujet dans quelques minutes.
+
+        J'ai donc créé utilitaire petit logiciel pour faire le PC silencieux quand il tourne sur ou
+        se réveille. Solution est très facile! Le son est automatiquement coupé lorsque l'ordinateur
+        est d'éteindre ou va suspendre mode. Le prochain démarrage du système est absolument
+        silencieux, même si vous avez oublié de mettre le son en session précédente. Après cela,
+        vous pouvez activer les effets sonores manuellement, en utilisant une combinaison de
+        raccourcis. En outre, vous mai utiliser ce raccourci clavier pour passer rapidement le son
+        ou le désactiver.</Char_Desc_2000>
+    </French>
+    <Spanish>
+      <Char_Desc_2000>Su hijo ha sido despertado con el fuerte "Ta-Dam!" de sonido de su computadora
+        portátil cuando se jugó la abrió al final de la tarde? ¿Te cuaderno siempre abierta sobre la
+        conferencia y el equipo en voz alta le notifica sobre nuevos mensajes o algo así? Apuesto a
+        que usted quería romper en mil pedazos el equipo entonces. Cada vez que esto me pasa a mí,
+        me prometo a mí mismo para desactivar el sonido antes de cerrar la sesión, pero siempre me
+        olvido de eso, en pocos minutos.
+
+        Así que he creado pequeños programas informáticos de utilidad para hacer PC silencioso
+        cuando está encendido o se está despertando. La solución es muy fácil! El sonido se silencia
+        automáticamente cuando el ordenador está apagado o se va a modo de suspensión. El próximo
+        reinicio del sistema es totalmente silencioso, incluso si usted se olvidó de apagar el
+        sonido en la sesión anterior. Después de que se pueden habilitar efectos de sonido
+        manualmente, utilizando una combinación de acceso directo. Además, usted puede usar este
+        método abreviado de teclado para cambiar rápidamente el sonido encendido y apagado.</Char_Desc_2000>
+      <Char_Desc_450>Su hijo ha sido despertado con el fuerte "Ta-Dam!" de sonido de su computadora
+        portátil cuando se jugó la abrió al final de la tarde? ¿Te cuaderno siempre abierta sobre la
+        conferencia y el equipo en voz alta le notifica sobre nuevos mensajes o algo así? Apuesto a
+        que usted quería romper en mil pedazos el equipo entonces. Cada vez que esto me pasa a mí,
+        me prometo a mí mismo para desactivar el sonido antes de cerrar la sesión...</Char_Desc_450>
+      <Char_Desc_250>Su hijo ha sido despertado con el fuerte "Ta-Dam!" de sonido de su computadora
+        portátil cuando se jugó la abrió al final de la tarde? ¿Te cuaderno siempre abierta sobre la
+        conferencia y el equipo en voz alta le notifica sobre nuevos mensajes?</Char_Desc_250>
+      <Char_Desc_45>PC hace en silencio cuando se inicia</Char_Desc_45>
+      <Char_Desc_80>Utilidad pequeña para que PC en silencio cuando se encienda o se está despertand</Char_Desc_80>
+      <Keywords>silencio, mudo</Keywords>
+    </Spanish>
+    <Italian>
+      <Char_Desc_2000>Il vostro bambino mai stato svegliato con la forte "Ta-Dam!" suono il vostro
+        computer portatile riprodotto quando si aprì la sera tardi? Avete mai aperto sul taccuino
+        conferenza e il computer ti avvisa ad alta voce sui nuovi messaggi o qualcosa del genere?
+        Scommetto, avete voluto distruggere il computer in frantumi allora. Ogni volta che questo
+        succede a me, prometto a me stesso di disabilitare il suono prima della disconnessione, ma
+        mi dimentico sempre di questo in pochi minuti.
+
+        Così ho creato piccola utility software per PC in silenzio quando è acceso o si sta
+        svegliando. Soluzione è molto facile! Il suono viene automaticamente disattivato quando il
+        computer è spento o sta per modalità di sospensione. Il prossimo avvio del sistema è
+        assolutamente silenzioso anche se si è dimenticato di disattivare il suono in sessione
+        precedente. Dopo di che è possibile abilitare gli effetti sonori manualmente, utilizzando
+        una combinazione di scelta rapida. Inoltre, è possibile utilizzare questa scorciatoia da
+        tastiera per passare rapidamente l'audio on e off.</Char_Desc_2000>
+      <Char_Desc_450>Un piccolo software di utilità per rendere PC silenzioso quando è acceso o si
+        sta svegliando. Il suono viene automaticamente disattivato quando il computer è spento o sta
+        per modalità di sospensione. Il prossimo avvio del sistema è assolutamente silenzioso anche
+        se si è dimenticato di disattivare il suono in sessione precedente. Dopo di che è possibile
+        abilitare gli effetti sonori manualmente, utilizzando una combinazione di scelta rapida.</Char_Desc_450>
+      <Char_Desc_250>Software PC per fare silenzio quando è acceso o si sta svegliando. Il suono
+        viene automaticamente disattivato quando il computer è spento o sta per modalità di
+        sospensione. L'avvio del sistema prossima genera alcun suono.</Char_Desc_250>
+      <Char_Desc_80>Software PC per fare in silenzio quando si accende o si sta svegliando.</Char_Desc_80>
+      <Char_Desc_45>Rende computer silenzioso quando è acceso</Char_Desc_45>
+      <Keywords>suono muto, disattivare il suono, tranquillo accesso, disconnessione tranquilla,
+        tranquilla computer, avviare tranquilla, silenziosa computer, accesso silenzioso, muto
+        inizio</Keywords>
+    </Italian>
+    <Portuguese>
+      <Keywords>mudo, desligue logon, som calmo, tranquilo logoff, o computador quieto, tímido
+        início, computador silencioso, logon, Silent início</Keywords>
+      <Char_Desc_2000>O seu filho já foi acordado com o alto "Ta-Dam!" o som do seu laptop jogado
+        quando você o abriu na tarde da noite? Você notebook sempre aberta, em conferências e em voz
+        alta o computador avisa sobre novas mensagens ou algo assim? Aposto que você queria destruir
+        o computador em pedacinhos depois. Cada vez que isso acontece comigo, eu prometo a mim mesma
+        para desativar o som antes de fazer logoff, mas eu sempre esquecer isso em poucos minutos.
+        Então eu criei utilitário pequeno para fazer silêncio quando PC é ligar ou está acordando.
+        Solução é muito fácil! O som é silenciado automaticamente quando o computador está desligado
+        ou está indo para o modo de suspensão. O início do sistema seguinte é absolutamente
+        silencioso, mesmo se você se esqueceu de desligar o som na sessão anterior. Depois disso,
+        você pode ativar efeitos sonoros manualmente, usando uma combinação de atalho. Além disso,
+        você pode usar esse atalho para alternar rapidamente o som ligado e desligado.</Char_Desc_2000>
+      <Char_Desc_450>Software PC para fazer silêncio quando ela ligar. O som é silenciado
+        automaticamente quando o computador está desligado ou está indo para o modo de suspensão. O
+        início do sistema seguinte é absolutamente silencioso, mesmo se você se esqueceu de desligar
+        o som na sessão anterior. Depois disso, você pode ativar efeitos sonoros manualmente, usando
+        um atalho. Você pode usar esse atalho para alternar rapidamente o som ligado e desligado.</Char_Desc_450>
+      <Char_Desc_250>Software PC para fazer silêncio quando ela ligar. O som é silenciado
+        automaticamente quando o computador está desligado ou está indo para o modo de suspensão. O
+        início do sistema seguinte é absolutamente silencioso.</Char_Desc_250>
+      <Char_Desc_80>Pequeno software para tornar o PC silencioso quando se ligar ou está acordando.</Char_Desc_80>
+      <Char_Desc_45>Computador faz silêncio quando está girando e</Char_Desc_45>
+    </Portuguese>
+  </Program_Descriptions>
+</XML_DIZ_INFO>
