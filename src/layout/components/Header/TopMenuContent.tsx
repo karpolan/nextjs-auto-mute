@@ -23,6 +23,11 @@ const TopMenuContent: FunctionComponent<Props> = ({ activeClassName, marginForBu
         </Button>
       </li>
       <li role="menuitem">
+        <Button activeClassName={activeClassName} href="/screenshots/" margin={marginForButton} variant="text">
+          Screenshots
+        </Button>
+      </li>
+      <li role="menuitem">
         <Button activeClassName={activeClassName} href="/download/" margin={marginForButton} variant="text">
           Download
         </Button>
