@@ -38,7 +38,7 @@ const AllArticlesPage = async () => {
  * MetaData for the page
  */
 export const metadata = {
-  title: `Articles relative Caps Lock, Num Lock, and Scroll Lock - ${APP_NAME}`,
+  title: `Articles regarding muting audio and sound on PC with ${APP_NAME}.`,
   alternates: {
     canonical: `${PUBLIC_URL}/article/`,
   },
