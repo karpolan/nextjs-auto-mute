@@ -29,4 +29,7 @@ export const amplitudeEvent = (eventName, eventProperties = {}) => {
   amplitude.track(eventName, eventProperties);
 };
 
+// Helper to check if Amplitude was initialized.
+export const isAmplitudeInitialized = () => amplitudeInitialized;
+
 export default amplitude; // In case we need to use other Amplitude methods.

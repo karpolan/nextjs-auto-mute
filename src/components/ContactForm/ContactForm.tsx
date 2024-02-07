@@ -4,9 +4,13 @@ import emailjs from '@emailjs/browser';
 import { Button } from '@/components';
 import styles from './ContactForm.module.css';
 
+// TODO: Move it to /lib/ folder
 // We need to call it once to initialize emailjs
-// emailjs.init(envRequired(process.env.NEXT_PUBLIC_EMAILJS_KEY));
-process.env.NEXT_PUBLIC_EMAILJS_KEY && emailjs.init(process.env.NEXT_PUBLIC_EMAILJS_KEY);
+let emailjsInitialized = false;
+if (process.env.NEXT_PUBLIC_EMAILJS_KEY) {
+  emailjs.init(process.env.NEXT_PUBLIC_EMAILJS_KEY);
+  emailjsInitialized = true;
+}
 
 /**
  * Verifies if the email address is valid
@@ -48,7 +52,12 @@ const ContactForm = () => {
     }
 
     try {
-      const result = await emailjs.send('default_service', 'template_xxx', {
+      // TODO: Move it to /lib/ folder
+      if (!emailjsInitialized) {
+        throw new Error('EmailJS is not initialized');
+      }
+
+      await emailjs.send('default_service', 'template_software', {
         email,
         message,
       });
