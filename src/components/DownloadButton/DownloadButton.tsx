@@ -4,18 +4,22 @@ import { APP_NAME } from '@/config';
 import { gaPageView } from '@/lib/ga';
 import Button, { ButtonProps } from '../Button/Button';
 
-const LOCAL_FILES = {
-  exe: '/files/_PRODUCT_INSTALLER_.exe',
-  zip: '/files/_PRODUCT_INSTALLER_.zip',
+const LINKS = {
+  exe: '/files/auto-mute.exe',
+  zip: '/files/auto-mute.zip',
+  dmg: '/files/auto-mute.dmg',
 };
 
-const S3_BUCKET_FILES = {
-  exe: 'https://_S3_BUCKET_NAME_.s3.us-east-2.amazonaws.com/software/_PRODUCT_INSTALLER_.exe',
-  zip: 'https://_S3_BUCKET_NAME_.s3.us-east-2.amazonaws.com/software/_PRODUCT_INSTALLER_.zip',
+const FILES = {
+  // exe: 'https://_S3_BUCKET_NAME_.s3.us-east-2.amazonaws.com/software/_PRODUCT_INSTALLER_.exe',
+  // zip: 'https://_S3_BUCKET_NAME_.s3.us-east-2.amazonaws.com/software/_PRODUCT_INSTALLER_.zip',
+  exe: '/files/auto-mute.exe',
+  zip: '/files/auto-mute.zip',
+  dmg: '/files/auto-mute.dmg',
 };
 
 interface Props extends ButtonProps {
-  file?: keyof typeof LOCAL_FILES;
+  file?: keyof typeof FILES;
 }
 
 /**
@@ -23,8 +27,8 @@ interface Props extends ButtonProps {
  * @component DownloadButton
  */
 const DownloadButton: FunctionComponent<Props> = ({ children, file = 'exe', ...restOfProps }) => {
-  const hrefToTrack = LOCAL_FILES[file];
-  const hrefToDownload = S3_BUCKET_FILES[file];
+  const hrefToTrack = LINKS[file];
+  const hrefToDownload = FILES[file];
   return (
     <Button
       href={hrefToDownload}
