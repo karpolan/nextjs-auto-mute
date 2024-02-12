@@ -1,7 +1,6 @@
-import { FunctionComponent } from 'react';
-import { Link, Typo } from '@/components';
+import { FunctionComponent, useMemo } from 'react';
+import { Typo } from '@/components';
 import { SOFTWARE } from './config';
-import { softwareToTitle, softwareToUrl } from './utils';
 import styles from './software.module.css';
 import SoftwareListItem from './SoftwareListItem';
 
@@ -26,13 +25,17 @@ const BlockRelativeSoftware: FunctionComponent<Props> = ({
   software,
   total = NUMBER_OF_LINKS,
 }) => {
-  const text = software.replace(/-/g, ' ');
-  const start = SOFTWARE.indexOf(text) ?? 0;
-  const list = [];
-  for (let i = 1; i <= total; i++) {
-    const index = (start + i * skip) % SOFTWARE.length;
-    list.push(SOFTWARE[index]);
-  }
+  const list = useMemo(() => {
+    // Note: useMemo() is not actually needed, until the component become client-side rendered by 'use client' directive
+    const text = software.replace(/-/g, ' ');
+    const start = SOFTWARE.indexOf(text) ?? 0;
+    const result = [];
+    for (let i = 1; i <= total; i++) {
+      const index = (start + i * skip) % SOFTWARE.length;
+      result.push(SOFTWARE[index]);
+    }
+    return result;
+  }, [skip, software, total]);
 
   return (
     <Typo variant="list" className={styles.list}>

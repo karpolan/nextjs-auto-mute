@@ -1,7 +1,6 @@
-import { FunctionComponent } from 'react';
-import { Link, Typo } from '@/components';
+import { FunctionComponent, useMemo } from 'react';
+import { Typo } from '@/components';
 import { ARTICLES } from './config';
-import { articleToTitle, articleToUrl } from './utils';
 import styles from './article.module.css';
 import ArticleListItem from './ArticleListItem';
 
@@ -26,13 +25,17 @@ const BlockRelativeArticles: FunctionComponent<Props> = ({
   skip = DISTANCE_TO_NEXT,
   total = NUMBER_OF_LINKS,
 }) => {
-  const text = article.replace(/-/g, ' ');
-  const start = ARTICLES.indexOf(text) ?? 0;
-  const list = [];
-  for (let i = 1; i <= total; i++) {
-    const index = (start + i * skip) % ARTICLES.length;
-    list.push(ARTICLES[index]);
-  }
+  const list = useMemo(() => {
+    // Note: useMemo() is not actually needed, until the component become client-side rendered by 'use client' directive
+    const text = article.replace(/-/g, ' ');
+    const start = ARTICLES.indexOf(text) ?? 0;
+    const result = [];
+    for (let i = 1; i <= total; i++) {
+      const index = (start + i * skip) % ARTICLES.length;
+      result.push(ARTICLES[index]);
+    }
+    return result;
+  }, [article, skip, total]);
 
   return (
     <Typo variant="list" className={styles.list}>
