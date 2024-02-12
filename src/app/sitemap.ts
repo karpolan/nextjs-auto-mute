@@ -55,7 +55,7 @@ async function sitemap(): Promise<MetadataRoute.Sitemap> {
       url: PUBLIC_URL,
       lastModified,
       changeFrequency: 'monthly',
-      priority: 1,
+      priority: 1.0,
     },
     {
       url: `${PUBLIC_URL}/legal/`,

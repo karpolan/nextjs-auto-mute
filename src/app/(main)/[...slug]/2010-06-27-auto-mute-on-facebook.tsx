@@ -10,6 +10,6 @@ export const content = (
       <strong>{APP_NAME}</strong> has an official page on <strong>Facebook</strong>. Short link is:{' '}
       <Link href="https://www.facebook.com/automute">http://www.facebook.com/automute</Link>
     </Typo>
-    <Typo variant="paragraph">Please visit and "Like" it :)</Typo>
+    <Typo variant="paragraph">Please visit and &quot;Like&quot; it :)</Typo>
   </>
 );

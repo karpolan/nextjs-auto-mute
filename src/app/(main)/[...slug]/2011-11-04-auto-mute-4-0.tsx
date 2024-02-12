@@ -7,8 +7,8 @@ export const title = 'Auto Mute 4.0';
 export const content = (
   <>
     <Typo variant="paragraph">
-      On our second anniversary we've released new major update of <strong>{APP_NAME}</strong> software for Windows.
-      There are following changes in <strong>{APP_NAME}</strong> 4.0:
+      On our second anniversary we&apos;ve released new major update of <strong>{APP_NAME}</strong> software for
+      Windows. There are following changes in <strong>{APP_NAME}</strong> 4.0:
     </Typo>
     <Typo variant="list">
       <li>New option to hide the Tray Icon.</li>
