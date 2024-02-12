@@ -2,7 +2,7 @@ import { APP_NAME, PUBLIC_URL } from '@/config';
 import { FunctionComponent, PropsWithChildren } from 'react';
 import type { Metadata, Viewport } from 'next';
 import { OPEN_GRAPH_DEFAULT } from '@/app/config';
-import { FONTS } from '@/layout/fonts';
+import { FONTS } from '@/style/config';
 import { Advertising, Analytics, Footer, Header, MobileOrDesktop } from '@/layout/components';
 import './main.css';
 
