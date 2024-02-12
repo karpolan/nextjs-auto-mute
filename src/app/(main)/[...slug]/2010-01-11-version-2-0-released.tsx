@@ -1,11 +1,10 @@
 import { Typo } from '@/components';
-import { APP_NAME } from '@/config';
 
 export const categories = ['news', 'software'];
 export const tags = ['software', 'version', 'windows', 'pc'];
-export const title = 'First public release';
+export const title = 'Version 2.0 released';
 export const content = (
   <>
-    <Typo variant="paragraph">{APP_NAME} software has been released!</Typo>
+    <Typo variant="paragraph">Added Mute/Unmute menu item. Absolutely new core for Windows Vista/2008/7</Typo>
   </>
 );
