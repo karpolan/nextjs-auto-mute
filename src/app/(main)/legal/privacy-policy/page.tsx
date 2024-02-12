@@ -1,7 +1,7 @@
 import { APP_NAME, PUBLIC_URL } from '@/config';
 import { Link, Typo, Wrapper } from '@/components';
 
-const PRIVACY_POLICY_DATE = '2024-02-05';
+const PRIVACY_POLICY_DATE = '2024-02-12';
 
 /**
  * Content of "Privacy Policy" page

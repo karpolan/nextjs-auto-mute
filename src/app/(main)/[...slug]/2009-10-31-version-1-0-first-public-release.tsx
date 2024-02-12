@@ -6,6 +6,8 @@ export const tags = ['software', 'version', 'windows', 'pc'];
 export const title = 'First public release';
 export const content = (
   <>
-    <Typo variant="paragraph">{APP_NAME} software has been released!</Typo>
+    <Typo variant="paragraph">
+      <strong>{APP_NAME}</strong> software has been released!
+    </Typo>
   </>
 );
