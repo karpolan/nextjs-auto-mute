@@ -3,6 +3,7 @@ import { Link, Typo } from '@/components';
 import { ARTICLES } from './config';
 import { articleToTitle, articleToUrl } from './utils';
 import styles from './article.module.css';
+import ArticleListItem from './ArticleListItem';
 
 const DISTANCE_TO_NEXT = 9; // Number of Articles to skip to get to next link
 const NUMBER_OF_LINKS = 6; // How many links on Article page
@@ -36,10 +37,7 @@ const BlockRelativeArticles: FunctionComponent<Props> = ({
   return (
     <Typo variant="list" className={styles.list}>
       {list.map((name) => (
-        // TODO: Make component for list item
-        <li key={name}>
-          <Link href={articleToUrl(name)}>{articleToTitle(name)}</Link>
-        </li>
+        <ArticleListItem key={name} name={name} />
       ))}
     </Typo>
   );

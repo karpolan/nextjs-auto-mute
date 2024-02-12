@@ -138,6 +138,14 @@
   text-decoration: none;
 }
 
+.menu.mobile .menuToggleButton {
+  /* Humbugger Menu Button */
+  background: none;
+  border: none;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent; /* Remove tap highlight */
+}
+
 /* Other classes, must be defined last */
 .activeLink {
   /* LOL, there is a bug with class order in React Modules, so we use  !important :) */
@@ -148,12 +156,4 @@
   /* Clickable central area of the Header on Mobile */
   height: 100%;
   width: 100%;
-}
-
-.menuToggleButton {
-  /* Humbugger Menu Button */
-  background: none;
-  border: none;
-  cursor: pointer;
-  -webkit-tap-highlight-color: transparent; /* Remove tap highlight */
 }

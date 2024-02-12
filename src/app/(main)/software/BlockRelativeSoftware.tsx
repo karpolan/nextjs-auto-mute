@@ -3,6 +3,7 @@ import { Link, Typo } from '@/components';
 import { SOFTWARE } from './config';
 import { softwareToTitle, softwareToUrl } from './utils';
 import styles from './software.module.css';
+import SoftwareListItem from './SoftwareListItem';
 
 const DISTANCE_TO_NEXT = 9; // Number of Articles to skip to get to next link
 const NUMBER_OF_LINKS = 6; // How many links on Article page
@@ -36,10 +37,7 @@ const BlockRelativeSoftware: FunctionComponent<Props> = ({
   return (
     <Typo variant="list" className={styles.list}>
       {list.map((name) => (
-        // TODO: Make component for list item
-        <li key={name}>
-          <Link href={softwareToUrl(name)}>{softwareToTitle(name)}</Link>
-        </li>
+        <SoftwareListItem key={name} name={name} />
       ))}
     </Typo>
   );

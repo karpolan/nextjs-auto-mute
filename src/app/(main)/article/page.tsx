@@ -1,6 +1,7 @@
 import { Link, Typo, Wrapper } from '@/components';
 import { APP_NAME, PUBLIC_URL } from '@/config';
-import { articleToTitle, articleToUrl, getArticleList } from './utils';
+import { getArticleList } from './utils';
+import ArticleListItem from './ArticleListItem';
 import styles from './article.module.css';
 
 /**
@@ -19,10 +20,7 @@ const AllArticlesPage = async () => {
       </Typo>
       <Typo variant="list" className={styles.list}>
         {articles.map((name) => (
-          // TODO: Make component for list item
-          <li key={name}>
-            <Link href={articleToUrl(name)}>{articleToTitle(name)}</Link>
-          </li>
+          <ArticleListItem key={name} name={name} />
         ))}
       </Typo>
       <Typo variant="paragraph">

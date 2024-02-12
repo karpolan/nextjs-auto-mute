@@ -1,6 +1,7 @@
 import { Link, Typo, Wrapper } from '@/components';
 import { APP_NAME, PUBLIC_URL } from '@/config';
-import { softwareToUrl, getSoftwareList, softwareToTitle } from './utils';
+import { getSoftwareList } from './utils';
+import SoftwareListItem from './SoftwareListItem';
 import styles from './software.module.css';
 
 /**
@@ -22,10 +23,7 @@ const AllSoftwarePage = async () => {
       </Typo>
       <Typo variant="list" className={styles.list}>
         {list.map((name) => (
-          // TODO: Make component for list item
-          <li key={name}>
-            <Link href={softwareToUrl(name)}>{softwareToTitle(name)}</Link>
-          </li>
+          <SoftwareListItem key={name} name={name} />
         ))}
       </Typo>
       <Typo variant="paragraph">
