@@ -44,43 +44,43 @@
 
 /* Variant "contained"  */
 .contained {
-  border: solid 0.125rem rgba(255, 85, 62, 1);
-  background-color: rgb(255, 85, 62);
+  border: solid 0.125rem rgba(191, 42, 29, 1);
+  background-color: rgb(191, 42, 29);
   color: #ffffff;
   text-decoration: none;
 }
 
 .contained:hover {
-  background-color: rgba(255, 85, 62, 0.8);
+  background-color: rgba(191, 42, 29, 0.8);
 }
 
 /* Variant "outlined" */
 .outlined {
-  border: solid 0.125rem rgb(255, 85, 62);
+  border: solid 0.125rem rgb(191, 42, 29);
   background-color: transparent;
-  color: rgb(255, 85, 62);
+  color: rgb(191, 42, 29);
   text-decoration: none;
 }
 
 .outlined:disabled,
 .outlined:hover {
-  background-color: rgba(255, 39, 10, 0.2);
+  background-color: rgba(191, 42, 29, 0.2);
 }
 
 /* Variant "text" */
 .text {
   border: none;
   background-color: transparent;
-  color: rgb(255, 85, 62);
+  color: rgb(191, 42, 29);
   padding: 0.125rem 0.5rem;
 }
 
 .text:disabled {
-  background-color: rgba(255, 39, 10, 0.1);
+  background-color: rgba(191, 42, 29, 0.1);
 }
 
 .text:hover {
-  background-color: rgba(255, 39, 10, 0.1);
+  background-color: rgba(191, 42, 29, 0.1);
   /* text-decoration: underline; */
 }
 
@@ -88,11 +88,11 @@
 .icon {
   border: none;
   background-color: transparent;
-  color: rgb(255, 85, 62);
+  color: rgb(191, 42, 29);
   padding: 0.25rem;
 }
 
 .icon:disabled,
 .icon:hover {
-  background-color: rgba(255, 39, 10, 0.1);
+  background-color: rgba(191, 42, 29, 0.1);
 }

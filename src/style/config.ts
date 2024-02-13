@@ -3,10 +3,11 @@
 export * from './fonts'; // NOTE: Manage fonts outside this file
 
 export const COLORS = {
-  text: '#111111',
+  text: '#222222', // rgb(34, 34, 34)
   background: '#FFFFFF',
-  primary: '#FF6B00',
-  secondary: '#FFA500',
+  headerAndFooter: '#fff5ed', // rgb(255, 245, 237)
+  primary: '#BF2A1D', // rgb(255, 85, 62)
+  secondary: '#404040', // rgb(64, 64, 64)
   success: '#00FF00',
   warning: '#FFFF00',
   error: '#FF0000',
