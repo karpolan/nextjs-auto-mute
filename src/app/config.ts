@@ -5,7 +5,7 @@ export const OPEN_GRAPH_DEFAULT = {
 
   siteName: `${APP_NAME} Software`,
   title: APP_NAME,
-  description: `Free ${APP_NAME} software utility to make PC and Mac silent when it's turning on or is waking up.`,
+  description: `Free software utility to make PC and Mac silent when it's turning on or is waking up.`,
 
   images: [
     {

@@ -41,7 +41,7 @@ const ScreenshotsPage = () => {
  * MetaData for the page
  */
 export const metadata = {
-  title: `Screenshots of free Caps Lock Indicator software - ${APP_NAME}`,
+  title: `Screenshots showcasing the features of free sound muting software - ${APP_NAME}`,
   alternates: {
     canonical: `${PUBLIC_URL}/screenshots/`,
   },
