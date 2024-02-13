@@ -1,6 +1,6 @@
 {
   "name": "nextjs-auto-mute",
-  "version": "0.3.7",
+  "version": "0.7.11",
   "description": "Website for Auto Mute software using NextJS",
   "private": true,
   "author": {
@@ -13,8 +13,8 @@
     "url": "https://github.com/karpolan/nextjs-auto-mute.git"
   },
   "scripts": {
-    "aws:cloudfront:invalidate": "aws cloudfront create-invalidation --distribution-id _CLOUDFRONT_DISTRIBUTION_NAME_ --paths /* --profile sysadmin",
-    "aws:s3:upload": "aws s3 sync out/ s3://_S3_BUCKET_NAME_ --delete --profile sysadmin",
+    "aws:cloudfront:invalidate": "aws cloudfront create-invalidation --distribution-id EON2JTK57O1WL --paths /* --profile sysadmin",
+    "aws:s3:upload": "aws s3 sync out/ s3://website-auto-mute.com --delete --profile sysadmin",
     "build": "next build",
     "dev": "next dev",
     "deploy:aws": "npm run build && npm run aws:s3:upload && npm run aws:cloudfront:invalidate",
