@@ -1,17 +1,8 @@
-# Public Website Template - Built with NextJS
+# AUTO-MUTE.COM - Built with NextJS
 
 Mix of [Create Next App](https://nextjs.org/docs/pages/api-reference/create-next-app) (App Router) with set of reusable components and utilities to build professional SEO friendly websites.
 
-## How to use
-
-1. ~~Clone the repository~~
-2. ~~Run `npm i` to install all dependencies~~
-3. ~~Copy `.env.sample` to `.env` or `.env.local` and set all required environment variables~~
-4. ~~Find all `TODO:` in the code and follow the instructions~~
-5. ~~Run `npm run dev` to start the development server~~
-6. Add your own pages to the `/src/app` folder
-7. Run `npm run build` to build the application into `out` folder
-8. Host the content of the `out` folder anywhere you want.
+Based on [NextJS website starter template](https://github.com/umka-co/nextjs-website-starter)
 
 ## Available Scripts
 
