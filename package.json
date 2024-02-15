@@ -1,6 +1,6 @@
 {
   "name": "nextjs-auto-mute",
-  "version": "0.7.13",
+  "version": "0.7.15",
   "description": "Website for Auto Mute software using NextJS",
   "private": true,
   "author": {
